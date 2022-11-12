@@ -1,0 +1,36 @@
+.footer{
+    bottom: 0;
+    width: 100%;
+    padding: 1.2rem 0;
+    background-color: #1a1919;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.social{
+    font-size: 1.7rem;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 11px;
+}
+
+.copyright{
+    text-align: center;
+    color: azure;
+    font-size: 14px;
+    margin-top: .2rem;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (max-width: 640px) {
+   
+}
