@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-sample/static/css/main.02e2f9b4.css",
-    "main.js": "/react-sample/static/js/main.b23dff36.js",
-    "static/media/card.jpg": "/react-sample/static/media/card.2450e4a4fbc6312f80c6.jpg",
-    "static/media/pc2.jpg": "/react-sample/static/media/pc2.50b894e8bb614dddb618.jpg",
-    "static/media/photo.avif": "/react-sample/static/media/photo.4329e7000dec84f8f9f2.avif",
-    "static/media/photo1.avif": "/react-sample/static/media/photo1.23868c5e7427765c4f36.avif",
-    "index.html": "/react-sample/index.html",
-    "main.02e2f9b4.css.map": "/react-sample/static/css/main.02e2f9b4.css.map",
-    "main.b23dff36.js.map": "/react-sample/static/js/main.b23dff36.js.map"
+    "main.css": "/client/static/css/main.e208c36d.css",
+    "main.js": "/client/static/js/main.803dfdd2.js",
+    "static/media/card.jpg": "/client/static/media/card.2450e4a4fbc6312f80c6.jpg",
+    "static/media/pc2.jpg": "/client/static/media/pc2.50b894e8bb614dddb618.jpg",
+    "static/media/photo.avif": "/client/static/media/photo.4329e7000dec84f8f9f2.avif",
+    "static/media/photo1.avif": "/client/static/media/photo1.23868c5e7427765c4f36.avif",
+    "index.html": "/client/index.html",
+    "main.e208c36d.css.map": "/client/static/css/main.e208c36d.css.map",
+    "main.803dfdd2.js.map": "/client/static/js/main.803dfdd2.js.map"
   },
   "entrypoints": [
-    "static/css/main.02e2f9b4.css",
-    "static/js/main.b23dff36.js"
+    "static/css/main.e208c36d.css",
+    "static/js/main.803dfdd2.js"
   ]
 }
