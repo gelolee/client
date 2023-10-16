@@ -1,14 +1,15 @@
 import "./Projectcardstyle.css"
 
 import React from 'react'
-import img1 from '../assets/card.jpg';
+import img1 from '../assets/smple.avif';
 import { NavLink } from "react-router-dom";
+import 'animate.css';
 
 const Projectcard = () => {
   return (
     <div className="project-container">
         <h1 className="project-heading">Projects</h1>
-        <div className="project_container">
+        <div className="project_container animate__animated animate__slideInUp">
             <div className="project-card">
                 <img src = {img1} alt = "image3"/>
                 <h2 className="project-title">Project 1</h2>

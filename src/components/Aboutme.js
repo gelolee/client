@@ -3,11 +3,12 @@ import "./Aboutmestyle.css"
 import React from 'react'
 import photo from "../assets/photo.avif"
 import photo1 from "../assets/photo1.avif"
+import 'animate.css'
 
 const Aboutme = () => {
   return (
     <div className="aboutme">
-        <div className="left">
+        <div className="left animate__animated animate__slideInLeft">
             <h1>Who Am I?</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -18,7 +19,7 @@ const Aboutme = () => {
                  occaecat cupidatat non proident, sunt in culpa qui officia 
                  deserunt mollit anim id est laborum.</p>
         </div>
-        <div className="right">
+        <div className="right animate__animated animate__slideInRight">
             <div className="img-container">
                 <div className="img-stack top">
                     <img src = {photo} className = "img" alt="true"/>

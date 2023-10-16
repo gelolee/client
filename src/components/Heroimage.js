@@ -1,11 +1,12 @@
 import "./Heroimagestyle.css";
-import {FaFacebook, FaInstagram, FaTelegramPlane} from "react-icons/fa";
+import {FaFacebook, FaInstagram, FaTelegramPlane, FaLinkedin} from "react-icons/fa";
 
 
 import React from 'react'
 
 import Image from "../assets/pc2.jpg"
 import {Link} from "react-router-dom"
+import 'animate.css';
 
 const Heroimage = () => {
   return (
@@ -14,21 +15,24 @@ const Heroimage = () => {
           <img className="code-img" src = {Image} alt = "Image1"/>
         </div>
         <div className="content">
-            <p>Hi, I'm Angelo Lee Salenga</p>
-            <h1>Web Developer.</h1>
-            <div>
+            <p className="animate__animated animate__fadeInDown ">Hi, I'm Angelo Lee Salenga</p>
+            <h1 className="animate__animated animate__fadeInDown ">Front End Developer.</h1>
+            <div className="animate__animated animate__fadeIn">
                 <Link to = "/project" className="btn">Projects</Link>
                 <Link to = "/contact" className="btn">Contact</Link>
             </div>
-            <div className="icon">
-              <a href="https://www.facebook.com/im.angelolee">
+            <div className="icon animate__animated animate__fadeIn">
+              <a className = "facebook" href="https://www.facebook.com/im.angelolee">
                 <FaFacebook />
               </a>
-              <a href="https://www.instagram.com/gelo_lee/">
+              <a className = "instagram" href="https://www.instagram.com/gelo_lee/">
                 <FaInstagram />
               </a>
               <a href="https://web.telegram.org/?legacy=1#/im">
                 <FaTelegramPlane />
+              </a>
+              <a href="https://www.linkedin.com/in/angelo-salenga-a7032428a/">
+                <FaLinkedin />
               </a>
             </div>
         </div>

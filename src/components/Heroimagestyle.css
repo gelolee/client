@@ -68,3 +68,17 @@
         font-size: 1.6rem;
     } 
 }
+
+.slide-left{
+    animation: slideleft 1s linear forwards;
+}
+@keyframes slide-left{
+    0%{
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
